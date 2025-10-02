@@ -15,11 +15,12 @@ def batch_resize_images(input_folder, output_folder, target_width, target_height
         except Exception as e:
             print(f"Skipping {filename}: {e}")
 
-
+#Change the input and output file path suitable to your file
 input_folder = "D:\\Irys_Spritetype-1.1\\New folder"
 output_folder = "D:\\Irys_Spritetype-1.1\\New folder"
-
+#change the size required to you
 target_width = 800
 target_height = 600
 
 batch_resize_images(input_folder, output_folder, target_width, target_height)
+
